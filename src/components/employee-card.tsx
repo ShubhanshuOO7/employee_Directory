@@ -1,5 +1,5 @@
 import { Mail, Phone, Edit2, Trash2 } from "lucide-react"
-import type { Employee } from "../types/employee"
+import type { Employee } from "../../types/employee"
 
 interface EmployeeCardProps {
   employee: Employee

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { X } from "lucide-react"
-import type { Employee } from "../types/employee"
+import type { Employee } from "../../types/employee"
 
 interface EmployeeFormProps {
   employee: Employee | null

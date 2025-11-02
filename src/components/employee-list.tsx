@@ -1,5 +1,5 @@
 import EmployeeCard from "./employee-card"
-import type { Employee } from "../types/employee"
+import type { Employee } from "../../types/employee"
 
 interface EmployeeListProps {
   employees: Employee[]

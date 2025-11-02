@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react"
-import SearchBar from "../components/search-bar"
-import EmployeeList from "../components/employee-list"
-import EmployeeForm from "../components/employee-form"
+import SearchBar from "./components/search-bar"
+import EmployeeList from "./components/employee-list"
+import EmployeeForm from "./components/employee-Form"
 import type { Employee } from "../types/employee"
 
 const defaultEmployees: Employee[] = [
