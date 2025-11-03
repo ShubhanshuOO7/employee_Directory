@@ -38,7 +38,6 @@ export default function EmployeeForm({ employee, onSubmit, onCancel }: EmployeeF
           aria-hidden="true"
         />
         
-        {/* Form Container */}
         <div className="relative w-full max-w-2xl rounded-lg border border-slate-700 bg-slate-800 p-6 shadow-xl shadow-slate-900/20">
       <div className="mb-6 flex items-center justify-between">
         <h2 className="text-xl font-semibold text-slate-100">{employee ? "Edit Employee" : "Add New Employee"}</h2>

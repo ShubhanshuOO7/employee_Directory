@@ -10,7 +10,6 @@ interface EmployeeCardProps {
 export default function EmployeeCard({ employee, onEdit, onDelete }: EmployeeCardProps) {
   return (
     <div className="rounded-lg border border-gray-800 bg-gray-900 p-6 shadow-sm transition-all hover:shadow-lg hover:shadow-black/30">
-      {/* Header with Avatar */}
       <div className="mb-4 flex items-start justify-between">
         <div className="flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-900/30">
@@ -27,15 +26,11 @@ export default function EmployeeCard({ employee, onEdit, onDelete }: EmployeeCar
           </div>
         </div>
       </div>
-
-      {/* Department Badge */}
       <div className="mb-4">
         <span className="inline-block rounded-full bg-gray-800 px-3 py-1 text-xs font-medium text-gray-300 border border-gray-700">
           {employee.department}
         </span>
       </div>
-
-      {/* Contact Info */}
       <div className="mb-4 space-y-2 border-t border-gray-800 pt-4">
         <div className="flex items-center gap-2 text-sm text-gray-400">
           <Mail className="h-4 w-4 text-gray-500" />
@@ -50,8 +45,6 @@ export default function EmployeeCard({ employee, onEdit, onDelete }: EmployeeCar
           </a>
         </div>
       </div>
-
-      {/* Actions */}
       <div className="flex gap-2 border-t border-gray-800 pt-4">
         <button
           onClick={() => onEdit(employee)}
